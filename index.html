@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="home">
+
+    <h2>{{ site.title }}</h2>
+
+    <p>
+        Welcome to the Kabbage Technology Blog, where you can keep up with whats
+        going on in the technology department at Kabbage.
+    </p>
+
+    <h3>Recent Posts</h3>
+
+    {% for post in site.posts %}
+        <h4><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <hr />
+    {% endfor %}
+
+    <p>&nbsp;</p>
+    <p class="pull-right">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

@@ -1,0 +1,12 @@
+# Site settings
+title: Kabbage Developer Blog
+email: engteam@kabbage.com
+description: "Your source for all things Kabbage and Technology."
+baseurl: ""
+url: "http://kabbageinc.github.io"
+portal_url: "http://developer.kabbage.com"
+github_username:  kabbageinc
+
+# Build settings
+markdown: kramdown
+permalink: pretty

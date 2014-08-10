@@ -1,0 +1,36 @@
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="{{ '/img/footer-logo.png' | prepend: site.baseurl }}" />
+                <div class="footer-nav row">
+                    <ul class="list-unstyled col-sm-6">
+                        <li><a href="{{ site.portal_url }}/">Home</a></li>
+                        <li><a href="/">Dev Blog</a></li>
+                        <li><a href="{{ '/docs' || prepend: site.portal_url }}">Documentation</a></li>
+                        <li><a href="{{ '/io-docs' || prepend: site.portal_url }}">API Explorer</a></li>
+                    </ul>
+                    <ul class="list-unstyled col-sm-6">
+                        <li><a href="{{ '/terms' || prepend: site.portal_url }}">Terms of Service</a></li>
+                        <li><a href="{{ '/contact' || prepend: site.portal_url }}">Support</a></li>
+                        <li><a href="https://www.kabbage.com">Kabbage.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Download the Kabbage App</h2>
+                <div class="footer-nav">
+                    <a href="https://itunes.apple.com/us/app/kabbage/id681998448?mt=8" target="_blank">
+                        <img src="https://kabbage-media-user.s3.amazonaws.com/Media/Default/Images/Mashery/app-store.png" width="148px" height="48px">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.kabbage.mobile" target="_blank">
+                        <img src="https://kabbage-media-user.s3.amazonaws.com/Media/Default/Images/Mashery/google-play.png" width="148px" height="48px">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy;{{ site.time | date: '%Y' }} Kabbage Inc. All rights reserved. Kabbage is a registered trademark of Kabbage, Inc.
+        </div>
+    </div>
+</footer>
