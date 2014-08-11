@@ -1,7 +1,7 @@
 ---
 ---
 
-$header_height: 100px;
+$header_height: 50px;
 
 html, body {
     height: 100%;
@@ -9,11 +9,15 @@ html, body {
 
 header {
     nav {
-        height: $header_height;
+        min-height: $header_height;
         line-height: $header_height;
 
         .navbar-brand {
-            line-height: $header_height - 30px;
+            padding: 10px 15px;
+
+            img {
+                height: 100%;
+            }
         }
 
         .navbar-nav {
@@ -66,12 +70,6 @@ footer {
     margin-top: $header_height;
 }
 
-@media (min-width: 992px) {
-    .container {
-        width: 990px;
-    }
-}
-
 .navbar-kabbage {
     background-color: #a8cf39;
 
@@ -99,6 +97,7 @@ footer {
 
             background: url('https://kabbage-media-user.s3.amazonaws.com/Media/Default/Images/Mashery/arrow.png') center bottom no-repeat;
             padding-bottom: 7px;
+            margin-bottom: -7px;
         }
     }
 }
