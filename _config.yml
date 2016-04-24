@@ -19,3 +19,6 @@ github_username:  kabbageinc
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+kramdown:
+    input: GFM
