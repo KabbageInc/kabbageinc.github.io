@@ -4,22 +4,20 @@ layout: default
 
 <div class="home">
 
-    <h2>{{ site.title }}</h2>
+  <h1 class="page-heading">Posts</h1>
 
-    <p>
-        Welcome to the Kabbage Developer Blog, where you can keep up with whats
-        going on in the technology department at Kabbage.
-    </p>
-
-    <h3>Recent Posts</h3>
-
+  <ul class="post-list">
     {% for post in site.posts %}
-        <h4><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <hr />
-    {% endfor %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-    <p>&nbsp;</p>
-    <p class="pull-right">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

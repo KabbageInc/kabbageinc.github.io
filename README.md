@@ -1,4 +1,4 @@
 kabbageinc.github.io
 ====================
 
-Kabbage, Inc Technology Site
+Kabbage, Inc Technology Blog
