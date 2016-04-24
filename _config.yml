@@ -22,3 +22,6 @@ permalink: pretty
 
 kramdown:
     input: GFM
+
+gems:
+  - jekyll-redirect-from

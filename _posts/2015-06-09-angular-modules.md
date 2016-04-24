@@ -4,6 +4,8 @@ title:  "Building Modules with AngularJS"
 date:   2015-06-09
 author: Joseph Jo
 categories: angular
+redirect_from:
+  - post/121124345117/building-modules-with-angularjs-at-kabbage
 ---
 TL;DR: Angular custom directives are powerful and helped us build modules that can be placed anywhere on any page.
 

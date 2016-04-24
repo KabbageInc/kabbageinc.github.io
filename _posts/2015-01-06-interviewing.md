@@ -4,6 +4,8 @@ title:  "Tech Interviewing @ Kabbage"
 date:   2015-01-06
 author: Andy Badstubner
 categories: interviews
+redirect_from:
+  - post/107349576667/tech-interviewing-kabbage
 ---
 We are passionate about making Kabbage a great place to work. There’s the free lunch, state of the art equipment and the ability to make a difference everyday. That is just the beginning, though. The most important part of a great place to work is the team itself. We are very selective in our hiring process, striving only hire people that will make the team better, faster, smarter – and more fun.
 
